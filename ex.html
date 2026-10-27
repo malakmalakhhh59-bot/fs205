@@ -1,0 +1,29 @@
+<html>
+<body>
+  <p id="affichage"></p>
+<script>
+    let nom = "Ahmed";
+    let x = 7;
+    let couleur;
+
+    let couleur = x % 2 === 0 ? "blue" : "green";
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+  <ul id="maListe"></ul>
+
+  <script>
+    let fruits = ["Pomme", "Banane", "Orange", "Fraise"];
+    let ul = document.getElementById("maListe");
+
+    for (let i = 0; i < fruits.length; i++) {
+      let li = document.createElement("li");
+      li.textContent = fruits[i];
+      ul.appendChild(li);
+    }
+  </script>
+</body>
+</html>
